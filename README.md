@@ -6,4 +6,4 @@ Python script that scrapes data on all of the book, sorted by category, from boo
 2. Open a new terminal and run "pip install -r requirements.txt"
 3. Run allcategories.py and the script will create csv_files and img_files folders that will store the scraped data.
 
-It's not recommended to run either singlecategory or singleproduct as they do not put the files in the correct folders and it can make a lot of unorganized files if you aren't careful.
+Running singlecategory.py or singleproduct.py will create a data.csv file with the data from the category or book selected in the url variable (in the case of category) or the first book of the selected page (in the case of product)
